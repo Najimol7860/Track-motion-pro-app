@@ -1,0 +1,8 @@
+{
+  "name": "Motion Tracker",
+  "description": "Professional After Effects-style object tracking studio with high-precision optical flow, multi-point transformation, planar corner pinning, and VFX layer attachment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

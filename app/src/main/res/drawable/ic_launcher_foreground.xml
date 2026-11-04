@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Motion Trajectory Path -->
+    <path
+        android:pathData="M 32,74 C 40,68 45,55 54,54 C 63,53 68,44 76,34"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Trajectory Keyframe Dots -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M 32,74 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 44,61 m -3.5,0 a 3.5,3.5 0 1,0 7,0 a 3.5,3.5 0 1,0 -7,0" />
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M 54,54 m -4,0 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M 76,34 m -4,0 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0" />
+
+    <!-- Outer Search Region Box -->
+    <path
+        android:pathData="M 40,40 L 40,46 M 40,40 L 46,40 M 68,40 L 68,46 M 68,40 L 62,40 M 40,68 L 40,62 M 40,68 L 46,68 M 68,68 L 68,62 M 68,68 L 62,68"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00F0FF"
+        android:strokeLineCap="round" />
+
+    <!-- Inner Feature Region (AE Tracker style) -->
+    <path
+        android:pathData="M 48,48 L 60,48 L 60,60 L 48,60 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#F59E0B" />
+
+    <!-- Center Tracking Crosshair -->
+    <path
+        android:pathData="M 54,43 L 54,65 M 43,54 L 65,54"
+        android:strokeWidth="2"
+        android:strokeColor="#F43F5E"
+        android:strokeLineCap="round" />
+    
+    <!-- Center Target Core -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,54 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+
+    <!-- Attached Layer Tag Pin -->
+    <path
+        android:pathData="M 68,40 L 78,28 L 90,28"
+        android:strokeWidth="1.8"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 90,28 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0" />
+</vector>
